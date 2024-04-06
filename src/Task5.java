@@ -10,8 +10,8 @@ public class Task5 {
     public static void main (String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number");
-        int n = scanner.nextInt();
-        int fib = fibonacci(n);
+        int number = scanner.nextInt();
+        int fib = fibonacci(number);
         System.out.println(fib);
         scanner.close();
     }
