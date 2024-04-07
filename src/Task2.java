@@ -1,5 +1,16 @@
 import java.util.Scanner;
+/**
+ * This class contains the method calculateAverage
+ *
+ */
 public class Task2 {
+    /**
+     * This method returns the average number of the array
+     * Time complexity: O(n), where n length of input array.
+     * For cycle iterating through the array and calculating sum of all elements
+     * @param array The array of integers where we need to find average.
+     * @return average The average number from the given array.
+     */
     public static double calculateAverage(int[] arr){
         if (arr.length == 0){
             throw new IllegalArgumentException("Array is empty");

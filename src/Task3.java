@@ -1,5 +1,12 @@
 import java.util.Scanner;
 public class Task3 {
+    /**
+     * This method returns whether number is prime or not
+     * It uses for a cycle
+     * Time complexity: O(sqrt(n)), where n is the input number.
+     * @param number The number for checking primary
+     * @return boolean if number prime True, if not False.
+     */
     public static boolean isPrime(int n){
         if(n <= 1) {
             return false;

@@ -1,5 +1,15 @@
 import java.util.Scanner;
+
+/**
+ * This class finds the minimum values from an array of numbers
+ * The findMinimum method iterates through the array to determine the smallest element.
+ */
 public class Task1 {
+    /**
+     * This method finds the minimum value in the given array of the integers
+     * @param array of integers where we need to find the minimum value
+     * @return The smallest integer of the array
+     */
     public static int findMinimum(int[] arr){
         if (arr.length == 0){
             throw new IllegalArgumentException("Array is empty");
