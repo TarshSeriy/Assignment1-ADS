@@ -12,7 +12,7 @@ public class Task4 {
            return 1;
 
        }
-       return n * findFactorial(n-1);
+       return n * pow(n-1);
 
 
     }
