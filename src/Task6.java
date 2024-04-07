@@ -12,7 +12,7 @@ public class Task6 {
         if (b == 0){//base case
             return 1;
         }
-        return n * pown, b-1);
+        return n * findDegree(n, b-1);
     }
     public static void main (String[] args){
         Scanner scanner = new Scanner(System.in);
