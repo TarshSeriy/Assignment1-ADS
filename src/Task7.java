@@ -28,7 +28,6 @@ public class Task7 {
         for (int i = 0; i < size; i++) {
             array[i] = scanner.nextInt();
         }
-        // Вызываем функцию для реверса массива
         reverse(array, 0, size - 1);
         System.out.println("Reversed array:");
         for (int i = 0; i < size; i++) {
